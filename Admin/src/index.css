@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import "tailwindcss";
+::-webkit-scrollbar{
+  @apply hidden
+}
+
+/* Theme variables (Tailwind v4.1) */
+@theme {
+  --color-primary: #5f6FFF;
+
+  /* Grid template */
+  --grid-cols-auto: repeat(auto-fill, minmax(200px, 1fr));
+}
+ * {
+    @apply border-gray-200;
+  }
+
+@layer components {
+  .active hr {
+    @apply block;
+  }
+}
+
+
+@layer utilities {
+  ::-webkit-scrollbar {
+    display: none;
+  }}
+  *{
+    font-family:Outfit;
+  }
+  .active hr{
+    @apply block;
+
+
+  }
+  @media (max-width:740px){
+    .active p{
+      @apply text-white bg-primary 
+    }
+  }
