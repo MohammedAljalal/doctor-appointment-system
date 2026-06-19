@@ -301,7 +301,7 @@ This project is licensed under the ISC License - see the LICENSE file for detail
 
 ## 📞 Support
 
-For support, email your-email@example.com or open an issue in the GitHub repository.
+For support, email mohammedalgalalalgalal@gmail.comor open an issue in the GitHub repository.
 
 ---
 
